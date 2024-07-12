@@ -1,0 +1,82 @@
+h1 {
+    font-size: 50px;
+    font-family: cursive ;
+    text-decoration: underline;
+}
+
+.cool-buttons:hover {
+    text-transform: capitalize;
+    color: rgb(146, 132, 5) ;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin: 0px 5px;
+    width: 200px;
+    border: none;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    color: beige;
+    transition: background-color 0.5s ease;
+}
+
+.primary {
+    background-color: rgb(177, 78, 78);
+    border-color: rgb(199, 88, 88);
+
+}
+
+.secondary {
+    background-color: rgb(78, 101, 177);
+    border-color: rgb(91, 118, 206);
+
+
+}
+
+.tertiary {
+    background-color: rgb(95, 177, 78);
+    border-color: rgb(100, 194, 82);
+
+
+}
+
+.btn:hover {
+    background-color: coral;
+    border-color: rgba(0, 0, 0, 0.205);
+}
+
+
+/* The Navigation Bar*/
+
+nav {
+    background-color: rgb(78, 101, 177);
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 10px 20px;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 50px;
+}
+
+nav:hover {
+    background-color:rgb(89, 115, 202) ;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: beige;
+}
+
