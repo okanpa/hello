@@ -54,7 +54,7 @@ h1 {
 
 nav {
     background-color: rgb(78, 101, 177);
-    display: inline-block;
+    display: flex;
     justify-content:space-between;
     align-items:center;
     padding: 10px 20px;
