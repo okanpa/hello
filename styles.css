@@ -80,3 +80,22 @@ nav:hover {
     color: beige;
 }
 
+
+
+/*new stuff*/
+@media screen and (max-width: 768px) { 
+.menu { display: none; 
+/* Hide the menu on smaller screens */ flex-direction: column; 
+background-color: #333; 
+position: absolute;
+ top: 60px;
+ left: 0;
+ right: 0;
+ z-index: 1; } 
+
+.menu.active { display: flex; /* Show the menu when active */ }
+
+ .menu li { margin: 10px 0; } /* Show the hamburger icon when menu is active */
+
+.menu-icon.active { display: block; position: absolute; top: 20px; right: 20px; color: #fff; font-size: 24px; }
+ }
