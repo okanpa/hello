@@ -1,4 +1,3 @@
-
 h1 {
     font-size: 50px;
     font-family: cursive ;
@@ -119,6 +118,9 @@ nav:hover {
     max-width: 800px;
     margin: 10px auto;
     padding: 25px;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
 }
 
 
@@ -172,3 +174,147 @@ nav:hover {
 .plan button:hover{
     background-color: rgb(182, 57, 57);
 }
+
+
+/* The Animated Cards */
+
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    width: 300px;
+    height: 400px;
+    position: relative;
+    margin: 50px auto;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0,0.5);
+    border: none;
+    border-radius: 50px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+    color: beige;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: rgb(78, 101, 177);
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: rgb(139, 141, 12);
+    transform: rotateY(180deg);
+  }
+
+
+/* forms */
+
+.contact-us {
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    margin: 50px auto; 
+    align-items: center;
+}
+
+.all-text {
+    display: inline-block;
+    text-align: left;
+}
+
+.heading{
+    padding:0 20px;
+}
+.inputs {
+ 
+    background-color: rgb(245, 178, 157);
+    color: beige;
+    border: 1px solid rgb(223, 155, 135);
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 425px;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0,0.1);
+}
+
+.inputs:hover{
+    background-color: rgb(255, 187, 166);
+
+}
+
+.username , .e-mail , .radio { 
+    margin: 25px 50px;
+    font-weight: bold;
+
+
+}
+
+#e-mail, #username{
+    padding: 10px 20px;
+    border: 2px solid rgb(223, 155, 135);
+    border-radius: 5px;
+    width: 85%;
+
+
+
+}
+input[type='text'], input[type='e-mail'], textarea{
+
+    border: 1px solid;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+.checkbox {
+    padding: 10px;
+    margin: 10px;
+}
+
+.submit{
+        align-self: center;
+        padding: 10px 20px;
+        margin: 0px 5px;
+        width: 180px;
+        border: none;
+        border-width: 1px;
+        border-style: solid;
+        cursor: pointer;
+        border-radius: 10px;
+        color: beige;
+        background-color: rgb(255, 135, 135);
+        border-color: rgb(255, 196, 196);
+}
+
+.submit:hover{
+    background-color: rgb(250, 163, 163);
+    border-color: rgb(204, 129, 129);
+}
+
