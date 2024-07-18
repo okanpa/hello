@@ -1,83 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8"
-        <meta name="viewport" content="width=device-width", initial-scale="1.0">
-        <link rel="stylesheet" href="styles.css">
-        <title>Some Cool Stuff</title>
-    </head>
+<head>
+    <meta charset="UTF-8" <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Some Cool Stuff</title>
+</head>
 
-    <body>
+<body>
 
-<!-- Cool Buttons-!-->>
-        <h1>The Cool Buttons Section:</h1>
-        <button class="btn primary">Click here!</button>
-        <button class="btn secondary">Click here too!</button>
-        <button class="btn tertiary">Click me!</button>
+    <!-- Project 1 - Cool Buttons-!-->
+    <h1>The Cool Buttons Section:</h1>
+    <button class="btn primary">Click here!</button>
+    <button class="btn secondary">Click here too!</button>
+    <button class="btn tertiary">Click me!</button>
 
-<!-- Cool Navigation bar-->
-        <h1>The Responsive Navigation Bar:</h1>
-        <nav>
-            <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Our Customers</a></li>
-                <li><a href="#">Contact</a></li>
+    <!-- Project 2 - Cool Navigation bar-->
+    <h1>The Responsive Navigation Bar:</h1>
+    <nav>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Our Customers</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Project 3 - Image gallery -->
+    <h1>The Image Gallery:</h1>
+    <div class="image-gallery">
+        <div class="image">
+            <img src="C:\Users\User\Desktop\Journey\Personal\Accounting Website\lois.jpg" alt="">
+        </div>
+        <div class="image">
+            <img src="C:\Users\User\Desktop\Journey\Personal\Accounting Website\peter.jpg" alt="">
+        </div>
+        <div class="image">
+            <img src="C:\Users\User\Desktop\Journey\Personal\Accounting Website\sample.jfif" alt="">
+        </div>
+    </div>
+
+    <!--Project 4 - Pricing Table-->
+    <h1>The Pricing Table:</h1>
+    <div class="pricing-table">
+        <div class="plan">
+            <h3>Basic Plan</h3>
+            <p class="price">$2 per month</p>
+            <ul>
+                <li>Video editing</li>
+                <li>24/7 customer service</li>
+                <li>Image editing</li>
             </ul>
-        </nav>
+            <button>Select Plan</button>
+        </div>
+        <div class="plan">
+            <h3>Pro Plan</h3>
+            <p class="price">$10 per month</p>
+            <ul>
+                <li>AI assisted video editing</li>
+                <li>24/7 customer service</li>
+                <li>Image editing with pro+ features</li>
+            </ul>
+            <button>Select Plan</button>
+        </div>
+        <div class="plan">
+            <h3>Premium Plan</h3>
+            <p class="price">$20 per month</p>
+            <ul>
+                <li>Staff assisted video editing</li>
+                <li>24/7 customer service</li>
+                <li>Guided image editing with pro+ features</li>
+            </ul>
+            <button>Select Plan</button>
+        </div>
+    </div>
 
-<!-- Image gallery -->
-            <h1>The Image Gallery:</h1>
-            <div class="image-gallery">
-                <div class="image">
-                    <img src="C:\Users\User\Desktop\Journey\Personal\Accounting Website\lois.jpg" alt="">
-                </div>
-                <div class="image">
-                    <img src="C:\Users\User\Desktop\Journey\Personal\Accounting Website\peter.jpg" alt="">
-                </div>
-                <div class="image">
-                    <img src="C:\Users\User\Desktop\Journey\Personal\Accounting Website\sample.jfif" alt="">
-                </div>
+    <!-- Project 5 - Animated Card UI-->
+
+    <h1>The Animated Cards:</h1>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <h3>Know this?</h3>
+                <p>Rectilinear Motion</p>
+            </div>
+            <div class="flip-card-back">
+                <h3>Answer</h3>
+                <p>Motion in a straight line is called rectilinear motion.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project 6 - Custom Form Styling -->
+    <!-- name, e-mail, gender, subscibe to newsletter, submit-->
+    <h1>Custom Form Styling:</h1>
+
+    <form action="" class="contact-us">
+
+        <div class="all-text">
+            <h3 class="heading">Contact Us</h3>
+            <div class="inputs">
+
+                <section class="username">
+                    <label for="username">Name: </label>
+                    <Input type="text" id="username" placeholder="Your name">
+                    </Input>
+                </section>
+
+                <section class="e-mail">
+                    <label for="e-mail">e-mail:</label>
+                    <Input type="text" id="e-mail" placeholder="Your e-mail">
+                    </Input>
+                </section>
+
+
+                <section class="radio">
+                    <label for="radio">Gender: </label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">
+                        Male
+                    </label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">
+                        Female
+                    </label>
+                    <input type="radio" id="others" name="gender" value="others">
+                    <label for="others">
+                        Others
+                    </label>
+                </section>
+
             </div>
 
-<!--Pricing Table-->
-            <h1>The Pricing Table:</h1>
-            <div class="pricing-table">
-                <div class="plan">
-                    <h3>Basic Plan</h3>
-                    <p class="price">$2 per month</p>
-                    <ul>
-                        <li>Video editing</li>
-                        <li>27/7 customer service</li>
-                        <li>Image editing</li>
-                    </ul>
-                    <button>Select Plan</button>
-                </div>
-                <div class="plan">
-                    <h3>Pro Plan</h3>
-                    <p class="price">$10 per month</p>
-                    <ul>
-                        <li>AI assisted video editing</li>
-                        <li>27/7 customer service</li>
-                        <li>Image editing with pro+ features</li>
-                    </ul>
-                    <button>Select Plan</button>
-                </div>
-                <div class="plan">
-                    <h3>Premium Plan</h3>
-                    <p class="price">$20 per month</p>
-                    <ul>
-                        <li>Staff assisted video editing</li>
-                        <li>27/7 customer service</li>
-                        <li>Guided image editing with pro+ features</li>
-                    </ul>
-                    <button>Select Plan</button>
-                </div>
-            </div>
+            <section class="checkbox">
+                <input type="checkbox" name="subscribe" id="subscribe">
+                <label for="subscribe">
+                    Subscribe to our newsletter
+                </label>
+            </section>
+        </div>
+        <input type="button" value="Submit" class="submit">
 
 
-    </body>
+
+    </form>
+
+</body>
+
 
 </html>
